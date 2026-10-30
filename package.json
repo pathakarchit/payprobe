@@ -1,0 +1,17 @@
+{
+  "name": "payprobe",
+  "version": "0.1.0",
+  "description": "AI agent that audits a vibe-coded app's PayPal integration for payment and security bugs, proves each finding against the PayPal sandbox, and generates fixes.",
+  "type": "module",
+  "bin": { "payprobe": "src/cli.js" },
+  "scripts": {
+    "scan": "node src/cli.js scan",
+    "prove": "node src/cli.js prove",
+    "demo": "node src/cli.js scan examples/vulnerable-shop --md",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "author": "pathakarchit",
+  "dependencies": {}
+}

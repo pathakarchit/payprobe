@@ -79,7 +79,7 @@ export PAYPAL_CLIENT_SECRET=...
 node src/cli.js prove --sandbox
 ```
 
-This gets a sandbox OAuth token and creates one Orders v2 order. We haven't run it against a real sandbox app yet, and we'll update this section when we have.
+This gets a sandbox OAuth token and creates one Orders v2 order. We ran it against a real sandbox app on Oct 30, 2026: the token came back and the order was created with status `CREATED`.
 
 ## How PayPal is used
 
